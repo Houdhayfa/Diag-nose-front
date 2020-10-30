@@ -2,7 +2,7 @@ import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import { CssBaseline } from '@material-ui/core'
 import Header from './Header'
-import LandingCards from './LandingCards'
+import Bottom from './Bottom'
 const useStyles=makeStyles((theme) => ({
     root: {
         minHeight:"100vh",
@@ -26,7 +26,7 @@ const classes=useStyles()
         <div className={classes.root}>
             <CssBaseline/>
             <Header/>
-            <LandingCards/>
+            <Bottom/>
         </div>
     )
 }

@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Profile from './components/profile_page/Profile'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   
-    <App />
+    <Profile/>
   ,
   document.getElementById('root')
 );
